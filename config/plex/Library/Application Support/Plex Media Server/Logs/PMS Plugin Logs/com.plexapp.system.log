@@ -1,0 +1,280 @@
+2025-07-31 01:48:45,601 (7d41844cc808) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: 4608319 (Thu Jul 03 09:18:19 UTC 2025)
+2025-07-31 01:48:45,601 (7d41844cc808) :  DEBUG (core:361) - Using the elevated policy
+2025-07-31 01:48:45,602 (7d41844cc808) :  DEBUG (core:365) - Extending whitelist: ['cgi', 'tempfile']
+2025-07-31 01:48:45,602 (7d41844cc808) :  DEBUG (core:450) - Starting runtime component.
+2025-07-31 01:48:45,607 (7d41844cc808) :  DEBUG (core:450) - Starting caching component.
+2025-07-31 01:48:45,608 (7d41844cc808) :  DEBUG (core:450) - Starting data component.
+2025-07-31 01:48:45,608 (7d41844cc808) :  DEBUG (core:450) - Starting networking component.
+2025-07-31 01:48:45,608 (7d41844cc808) :  DEBUG (networking:266) - No cookie jar found
+2025-07-31 01:48:45,613 (7d41844cc808) :  DEBUG (networking:434) - Setting the default network timeout to 20.0
+2025-07-31 01:48:45,614 (7d41844cc808) :  DEBUG (core:450) - Starting localization component.
+2025-07-31 01:48:45,614 (7d41844cc808) :  INFO (localization:409) - Setting the default locale to en-us
+2025-07-31 01:48:45,614 (7d41844cc808) :  WARNING (data:179) - Error decoding with simplejson, using demjson instead (this will cause a performance hit) - Expecting property name enclosed in double quotes: line 26 column 1 (char 1078)
+2025-07-31 01:48:45,617 (7d41844cc808) :  DEBUG (localization:427) - Loaded en strings
+2025-07-31 01:48:45,618 (7d41844cc808) :  DEBUG (core:450) - Starting messaging component.
+2025-07-31 01:48:45,618 (7d41844cc808) :  DEBUG (core:450) - Starting debugging component.
+2025-07-31 01:48:45,618 (7d41844cc808) :  DEBUG (core:450) - Starting services component.
+2025-07-31 01:48:45,619 (7d41844cc808) :  DEBUG (core:450) - Starting myplex component.
+2025-07-31 01:48:45,619 (7d41844cc808) :  DEBUG (core:450) - Starting notifications component.
+2025-07-31 01:48:45,802 (7d41844cc808) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.system in namespace 'metadata'
+2025-07-31 01:48:45,821 (7d4180ef4b38) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2025-07-31 01:48:45,822 (7d41844cc808) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2025-07-31 01:48:45,824 (7d41844cc808) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2025-07-31 01:48:45,825 (7d4180ef4b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2025-07-31 01:48:45,826 (7d4180eaeb38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400'
+2025-07-31 01:48:45,827 (7d41844cc808) :  DEBUG (core:150) - Finished starting framework core
+2025-07-31 01:48:45,829 (7d41844cc808) :  DEBUG (core:560) - Loading plug-in code
+2025-07-31 01:48:45,846 (7d4180ef4b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2025-07-31 01:48:45,847 (7d4180eaeb38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400'
+2025-07-31 01:48:45,850 (7d4180ef4b38) :  ERROR (services:272) - Unable to load services from system. Loading from the current bundle only.
+2025-07-31 01:48:45,853 (7d4180eaeb38) :  WARNING (core:541) - Unable to retrieve the machine identifier or server version.
+2025-07-31 01:48:45,857 (7d4180ef4b38) :  DEBUG (services:362) - Loaded services
+2025-07-31 01:48:45,869 (7d4180ed1b38) :  DEBUG (services:438) - No shared code to load
+2025-07-31 01:48:45,888 (7d41844cc808) :  DEBUG (core:566) - Finished loading plug-in code
+2025-07-31 01:48:45,888 (7d41844cc808) :  DEBUG (runtime:640) - Adding a prefix handler for 'System' ('/system')
+2025-07-31 01:48:46,623 (7d41844cc808) :  INFO (__init__:35) - Starting System 4608319 (Thu Jul 03 09:18:19 UTC 2025)
+2025-07-31 01:48:46,623 (7d41844cc808) :  DEBUG (runtime:640) - Adding a prefix handler for 'Player' ('/player')
+2025-07-31 01:48:46,623 (7d41844cc808) :  INFO (datakit:118) - No default dictionary file
+2025-07-31 01:48:46,624 (7d41844cc808) :  DEBUG (agentservice:52) - Starting the agent service
+2025-07-31 01:48:46,750 (7d41844cc808) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.system in namespace 'metadata'
+2025-07-31 01:48:46,757 (7d41844cc808) :  DEBUG (bundleservice:65) - Starting the bundle service
+2025-07-31 01:48:46,758 (7d41844cc808) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2025-07-31 01:48:46,759 (7d41844cc808) :  DEBUG (playerservice:12) - Starting the player service
+2025-07-31 01:48:46,759 (7d41844cc808) :  DEBUG (flagservice:13) - Starting the media flag service
+2025-07-31 01:48:46,760 (7d41844cc808) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2025-07-31 01:48:46,760 (7d41844cc808) :  DEBUG (peerservice:141) - Starting the peer service
+2025-07-31 01:48:46,764 (7d4180cc8b38) :  DEBUG (peerservice:164) - Fetching the current list of servers
+2025-07-31 01:48:46,764 (7d41844cc808) :  DEBUG (runtime:1117) - Created a thread named 'refresh_servers'
+2025-07-31 01:48:46,765 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,765 (7d4180ca5b38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.plexthememusic not in info dictionary - pinging!
+2025-07-31 01:48:46,767 (7d41844cc808) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'refresh_servers'
+2025-07-31 01:48:46,769 (7d41844cc808) :  DEBUG (streamservice:18) - Starting the stream service
+2025-07-31 01:48:46,770 (7d4180ca5b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.plexthememusic'
+2025-07-31 01:48:46,770 (7d4180cc8b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/servers'
+2025-07-31 01:48:46,771 (7d41844cc808) :  CRITICAL (runtime:709) - Private handlers are no longer supported; couldn't register <bound method StreamService.token_handler of <streamservice.StreamService object at 0x7d4180847710>>
+2025-07-31 01:48:46,776 (7d41844cc808) :  DEBUG (runtime:1150) - Scheduled a timed thread named 'invalidation_timer'
+2025-07-31 01:48:46,780 (7d4180cc8b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/servers'
+2025-07-31 01:48:46,781 (7d41844cc808) :  DEBUG (proxyservice:12) - Starting the proxy service
+2025-07-31 01:48:46,782 (7d4180ca5b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.plexthememusic'
+2025-07-31 01:48:46,786 (7d4180ca5b38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,787 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,789 (7d41805a7b38) :  INFO (agentservice:167) - Agents in org.musicbrainz.agents.music not in info dictionary - pinging!
+2025-07-31 01:48:46,793 (7d41805a7b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/org.musicbrainz.agents.music'
+2025-07-31 01:48:46,794 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,797 (7d4180cc8b38) :  CRITICAL (runtime:1128) - Exception in thread named 'refresh_servers' (most recent call last):
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/runtime.py", line 1126, in _start_thread
+    f(*args, **kwargs)
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/System.bundle/Contents/Code/peerservice.py", line 169, in refresh_servers
+    servers_el = self.get_servers_el()
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/System.bundle/Contents/Code/peerservice.py", line 165, in get_servers_el
+    return XML.ElementFromURL('http://127.0.0.1:32400/servers', cacheTime = 0)
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/api/parsekit.py", line 344, in ElementFromURL
+    method=method,
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/api/networkkit.py", line 67, in _http_request
+    req = self._core.networking.http_request(url, *args, **kwargs)
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 352, in http_request
+    return HTTPRequest(self._core, url, data, h, url_cache, encoding, errors, timeout, immediate, sleep, opener, follow_redirects, method)
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 119, in __init__
+    self.load()
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 159, in load
+    f = self._opener.open(req, timeout=self._timeout)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 435, in open
+    response = meth(req, response)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 548, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 473, in error
+    return self._call_chain(*args)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 556, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 503: Service Unavailable
+
+2025-07-31 01:48:46,799 (7d41844cc808) :  DEBUG (runtime:1117) - Created a thread named 'update_attribution_flags_inner'
+2025-07-31 01:48:46,800 (7d4180cc8b38) :  INFO (agentservice:129) - Agent info: {}
+2025-07-31 01:48:46,801 (7d41805a7b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/org.musicbrainz.agents.music'
+2025-07-31 01:48:46,801 (7d41844cc808) :  INFO (core:611) - Started plug-in
+2025-07-31 01:48:46,804 (7d41805a7b38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,804 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,807 (7d41844cc808) :  DEBUG (socketinterface:160) - Starting socket server
+2025-07-31 01:48:46,807 (7d4180534b38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.lyricfind not in info dictionary - pinging!
+2025-07-31 01:48:46,808 (7d4180cc8b38) :  INFO (datakit:131) - Saved the dictionary file
+2025-07-31 01:48:46,813 (7d4180534b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.lyricfind'
+2025-07-31 01:48:46,813 (7d41844cc808) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2025-07-31 01:48:46,814 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,815 (7d41844cc808) :  INFO (socketinterface:184) - Socket server started on port 39011
+2025-07-31 01:48:46,816 (7d41844cc808) :  INFO (pipeinterface:25) - Entering run loop
+2025-07-31 01:48:46,818 (7d41844cc808) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2025-07-31 01:48:46,819 (7d4180534b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.lyricfind'
+2025-07-31 01:48:46,820 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,821 (7d4180534b38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,823 (7d4180ca5b38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.thetvdb not in info dictionary - pinging!
+2025-07-31 01:48:46,828 (7d4180ca5b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.thetvdb'
+2025-07-31 01:48:46,831 (7d41844cc808) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2025-07-31 01:48:46,832 (7d4180ca5b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.thetvdb'
+2025-07-31 01:48:46,833 (7d4180ca5b38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,835 (7d41805a7b38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.themoviedb not in info dictionary - pinging!
+2025-07-31 01:48:46,835 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,838 (7d41844cc808) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 486 bytes
+2025-07-31 01:48:46,839 (7d41805a7b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.themoviedb'
+2025-07-31 01:48:46,842 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,845 (7d41805a7b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.themoviedb'
+2025-07-31 01:48:46,847 (7d41802bcb38) :  DEBUG (runtime:717) - Handling request GET /system/agents
+2025-07-31 01:48:46,848 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,849 (7d41805a7b38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,852 (7d41802dfb38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.localmedia not in info dictionary - pinging!
+2025-07-31 01:48:46,853 (7d4180d1ab38) :  INFO (bundleservice:131) - Found duplicate identifier at /usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/TheTVDBv4.bundle for bundled plugin (com.plexapp.agents.thetvdb), ignoring duplicate plugin.
+2025-07-31 01:48:46,856 (7d41802dfb38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.localmedia'
+2025-07-31 01:48:46,857 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,863 (7d41802dfb38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.localmedia'
+2025-07-31 01:48:46,863 (7d41802dfb38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,864 (7d4180534b38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.htbackdrops not in info dictionary - pinging!
+2025-07-31 01:48:46,866 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,868 (7d4180534b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.htbackdrops'
+2025-07-31 01:48:46,872 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,880 (7d4180534b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.htbackdrops'
+2025-07-31 01:48:46,882 (7d4180534b38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,883 (7d4180ca5b38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.none not in info dictionary - pinging!
+2025-07-31 01:48:46,885 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,888 (7d4180ca5b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.none'
+2025-07-31 01:48:46,889 (7d4180d1ab38) :  DEBUG (runtime:1117) - Created a thread named 'remove_unavailable_agents'
+2025-07-31 01:48:46,890 (7d4180d1ab38) :  DEBUG (bundleservice:81) - Started the bundle service
+2025-07-31 01:48:46,896 (7d4180ca5b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.none'
+2025-07-31 01:48:46,897 (7d4180ca5b38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,897 (7d4180534b38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,899 (7d4180299b38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.thetvdb not in info dictionary - pinging!
+2025-07-31 01:48:46,902 (7d4180299b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.thetvdb'
+2025-07-31 01:48:46,907 (7d4180299b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.thetvdb'
+2025-07-31 01:48:46,907 (7d4180299b38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,908 (7d41805a7b38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.movieposterdb not in info dictionary - pinging!
+2025-07-31 01:48:46,910 (7d41805a7b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.movieposterdb'
+2025-07-31 01:48:46,918 (7d41805a7b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.movieposterdb'
+2025-07-31 01:48:46,918 (7d41805a7b38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,919 (7d41802dfb38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.lastfm not in info dictionary - pinging!
+2025-07-31 01:48:46,922 (7d41802dfb38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.lastfm'
+2025-07-31 01:48:46,924 (7d41802bcb38) :  DEBUG (runtime:814) - Found route matching /system/agents
+2025-07-31 01:48:46,928 (7d41802dfb38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.lastfm'
+2025-07-31 01:48:46,929 (7d41802dfb38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,932 (7d4180276b38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.fanarttv not in info dictionary - pinging!
+2025-07-31 01:48:46,934 (7d41802bcb38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:46,937 (7d4180276b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.fanarttv'
+2025-07-31 01:48:46,941 (7d4180cebb38) :  DEBUG (flagservice:46) - Started the media flag service
+2025-07-31 01:48:46,943 (7d4180276b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.fanarttv'
+2025-07-31 01:48:46,943 (7d4180276b38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,943 (7d4180253b38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.imdb not in info dictionary - pinging!
+2025-07-31 01:48:46,944 (7d4180253b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb'
+2025-07-31 01:48:46,947 (7d4180253b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb'
+2025-07-31 01:48:46,947 (7d4180253b38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,947 (7d4180d1ab38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.thetvdb not in info dictionary - pinging!
+2025-07-31 01:48:46,947 (7d4180d1ab38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.thetvdb'
+2025-07-31 01:48:46,950 (7d4180d1ab38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.thetvdb'
+2025-07-31 01:48:46,950 (7d4180d1ab38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,951 (7d4180ca5b38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.thetvdb not in info dictionary - pinging!
+2025-07-31 01:48:46,951 (7d4180ca5b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.thetvdb'
+2025-07-31 01:48:46,953 (7d4180ca5b38) :  ERROR (networking:197) - Error opening URL 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.thetvdb'
+2025-07-31 01:48:46,954 (7d4180ca5b38) :  WARNING (agentservice:169) - We weren't able to get information from the server about the agents.
+2025-07-31 01:48:46,955 (7d41802bcb38) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 130 bytes
+2025-07-31 01:48:48,128 (7d4180cebb38) :  DEBUG (runtime:717) - Handling request GET /system/messaging/clear_events/com.plexapp.agents.htbackdrops
+2025-07-31 01:48:48,133 (7d4180ca5b38) :  DEBUG (runtime:717) - Handling request GET /system/messaging/clear_events/com.plexapp.agents.imdb
+2025-07-31 01:48:48,158 (7d4180cebb38) :  DEBUG (runtime:814) - Found route matching /system/messaging/clear_events/com.plexapp.agents.htbackdrops
+2025-07-31 01:48:48,159 (7d4180ca5b38) :  DEBUG (runtime:814) - Found route matching /system/messaging/clear_events/com.plexapp.agents.imdb
+2025-07-31 01:48:48,160 (7d4180cebb38) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2025-07-31 01:48:48,162 (7d4180cebb38) :  DEBUG (runtime:924) - Response: [200] str, 0 bytes
+2025-07-31 01:48:48,163 (7d4180ca5b38) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2025-07-31 01:48:48,165 (7d4180ca5b38) :  DEBUG (runtime:924) - Response: [200] str, 0 bytes
+2025-07-31 01:48:48,167 (7d4180cebb38) :  DEBUG (runtime:717) - Handling request GET /system/messaging/clear_events/com.plexapp.agents.thetvdb
+2025-07-31 01:48:48,169 (7d4180cebb38) :  DEBUG (runtime:814) - Found route matching /system/messaging/clear_events/com.plexapp.agents.thetvdb
+2025-07-31 01:48:48,171 (7d4180cebb38) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2025-07-31 01:48:48,172 (7d4180cebb38) :  DEBUG (runtime:924) - Response: [200] str, 0 bytes
+2025-07-31 01:48:48,297 (7d4180cebb38) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.system/resourceHashes
+2025-07-31 01:48:48,307 (7d4180ca5b38) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.system/resourceHashes
+2025-07-31 01:48:48,317 (7d4180ca5b38) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.system/resourceHashes
+2025-07-31 01:48:48,317 (7d4180cebb38) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.system/resourceHashes
+2025-07-31 01:48:48,319 (7d4180ca5b38) :  DEBUG (networking:144) - Requesting 'http://resources-cdn.plexapp.com/hashes.json'
+2025-07-31 01:48:48,330 (7d41805a7b38) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.system/resourceHashes
+2025-07-31 01:48:48,332 (7d41805a7b38) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.system/resourceHashes
+2025-07-31 01:48:48,833 (7d4180ca5b38) :  ERROR (networking:197) - Error opening URL 'http://resources-cdn.plexapp.com/hashes.json'
+2025-07-31 01:48:48,834 (7d4180ca5b38) :  CRITICAL (runtime:1299) - Exception getting hosted resource hashes (most recent call last):
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/runtime.py", line 1291, in get_resource_hashes
+    json = self._core.networking.http_request("http://resources-cdn.plexapp.com/hashes.json", timeout=5).content
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 243, in content
+    return self.__str__()
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 221, in __str__
+    self.load()
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/networking.py", line 159, in load
+    f = self._opener.open(req, timeout=self._timeout)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 435, in open
+    response = meth(req, response)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 548, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 473, in error
+    return self._call_chain(*args)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 407, in _call_chain
+    result = func(*args)
+  File "/usr/lib/plexmediaserver/Resources/Python/python27.zip/urllib2.py", line 556, in http_error_default
+    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
+HTTPError: HTTP Error 404: Not Found
+
+2025-07-31 01:48:48,837 (7d4180cebb38) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2025-07-31 01:48:48,838 (7d4180ca5b38) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2025-07-31 01:48:48,839 (7d4180cebb38) :  DEBUG (runtime:924) - Response: [404] NoneType, 0 bytes
+2025-07-31 01:48:48,839 (7d4180ca5b38) :  DEBUG (runtime:924) - Response: [404] NoneType, 0 bytes
+2025-07-31 01:48:48,839 (7d41805a7b38) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2025-07-31 01:48:48,844 (7d41805a7b38) :  DEBUG (runtime:924) - Response: [404] NoneType, 0 bytes
+2025-07-31 01:48:48,845 (7d4180cebb38) :  CRITICAL (runtime:1128) - Exception in thread named '_handle_request' (most recent call last):
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/runtime.py", line 1126, in _start_thread
+    f(*args, **kwargs)
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/interfaces/socketinterface.py", line 126, in _handle_request
+    self.finish()
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Platforms/Shared/Libraries/tornado/web.py", line 553, in finish
+    self.request.finish()
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Platforms/Shared/Libraries/tornado/httpserver.py", line 432, in finish
+    self.connection.finish()
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Platforms/Shared/Libraries/tornado/httpserver.py", line 262, in finish
+    self._finish_request()
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Platforms/Shared/Libraries/tornado/httpserver.py", line 272, in _finish_request
+    connection_header = self._request.headers.get("Connection")
+AttributeError: 'NoneType' object has no attribute 'headers'
+
+2025-07-31 01:48:48,869 (7d4180cebb38) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+2025-07-31 01:48:48,870 (7d4180cebb38) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2025-07-31 01:48:48,873 (7d4180cebb38) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+2025-07-31 01:48:48,877 (7d4180ca5b38) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+2025-07-31 01:48:48,880 (7d41805a7b38) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+2025-07-31 01:48:48,883 (7d4180cebb38) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2025-07-31 01:48:48,884 (7d41805a7b38) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2025-07-31 01:48:48,885 (7d4180ca5b38) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2025-07-31 01:48:48,886 (7d4180cebb38) :  DEBUG (runtime:924) - Response: [200] str, 516 bytes
+2025-07-31 01:48:48,889 (7d41805a7b38) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+2025-07-31 01:48:48,891 (7d4180ca5b38) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+2025-07-31 01:48:48,902 (7d41805a7b38) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2025-07-31 01:48:48,901 (7d4180ca5b38) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2025-07-31 01:48:48,903 (7d41805a7b38) :  DEBUG (runtime:924) - Response: [200] str, 516 bytes
+2025-07-31 01:48:48,904 (7d4180ca5b38) :  DEBUG (runtime:924) - Response: [200] str, 516 bytes
+2025-07-31 01:48:48,956 (7d4180ca5b38) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczMwCmNvbS5wbGV4YXBwLmFnZW50cy5odGJhY2tkcm9wc3MxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8xCnIyCjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI0CnMxNApjb250cmlidXRlc190b3I1CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIwczE2CnByaW1hcnlfcHJvdmlkZXJiMHM1CnByZWZzczIyCkhvbWUgVGhlYXRlciBCYWNrZHJvcHNzNApuYW1lMQpzNgpBcnRpc3QxCnMyNQpjb20ucGxleGFwcC5hZ2VudHMubGFzdGZtMTg3CnMyCmFiczIKYWFzMgphZnMyCmFrczIKc3FzMgphbXMyCmFyczIKYW5zMgpoeXMyCmFzczIKYXZzMgphZXMyCmF5czIKYXpzMgpibXMyCmJhczIKZXVzMgpiZXMyCmJuczIKYmhzMgpiaXMyCmJzczIKcGJzMgpicnMyCmJnczIKbXlzMgpjYXMyCmNoczIKY2VzMgpueXMyCnpoczIKY3VzMgpjdnMyCmt3czIKY29zMgpjcnMyCmhyczIKY3NzMgpkYXMyCmR2czIKbmxzMgpkenMyCmVuczIKZW9zMgpldHMyCmVlczIKZm9zMgpmanMyCmZpczIKZnJzMgpmeXMyCmZmczIKZ2RzMgpnbHMyCmxnczIKa2FzMgpkZXMyCmVsczIKZ25zMgpndXMyCmh0czIKaGFzMgpoZXMyCmh6czIKaGlzMgpob3MyCmh1czIKaXNzMgppb3MyCmlnczIKaWRzMgppYXMyCmllczIKaXVzMgppa3MyCmdhczIKaXRzMgpqYXMyCmp2czIKa2xzMgprbnMyCmtyczIKa3NzMgpra3MyCmttczIKa2lzMgpyd3MyCmt5czIKa3ZzMgprZ3MyCmtvczIKa2pzMgprdXMyCmxvczIKbGFzMgpsdnMyCmxpczIKbG5zMgpsdHMyCmx1czIKbGJzMgpta3MyCm1nczIKbXNzMgptbHMyCm10czIKZ3ZzMgptaXMyCm1yczIKbWhzMgptb3MyCm1uczIKbmFzMgpudnMyCm5nczIKbmVzMgp4bnMyCm5kczIKbm9zMgpuYnMyCm5uczIKb2NzMgpvanMyCm9yczIKb21zMgpvc3MyCnBpczIKcGFzMgpmYXMyCnBsczIKcHRzMgpwc3MyCnF1czIKcm1zMgpyb3MyCnJuczIKcnVzMgpzZXMyCnNtczIKc2dzMgpzYXMyCnNjczIKc3JzMgpzbnMyCmlpczIKc2RzMgpzaXMyCnNrczIKc2xzMgpzb3MyCnN0czIKbnJzMgplc3MyCnN1czIKc3dzMgpzc3MyCnN2czIKdGxzMgp0eXMyCnRnczIKdGFzMgp0dHMyCnRlczIKdGhzMgpib3MyCnRpczIKdG9zMgp0c3MyCnRuczIKdHJzMgp0a3MyCnR3czIKdWdzMgp1a3MyCnVyczIKdXpzMgp2ZXMyCnZpczIKdm9zMgp3YXMyCmN5czIKd29zMgp4aHMyCnlpczIKeW9zMgp6YXMyCnp1cjAK
+2025-07-31 01:48:48,958 (7d4180ca5b38) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2025-07-31 01:48:48,960 (7d4180ca5b38) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo2CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0CjIKczMwCmNvbS5wbGV4YXBwLmFnZW50cy5odGJhY2tkcm9wc3MxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8xCnIyCjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI0CnMxNApjb250cmlidXRlc190b3I1CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIwczE2CnByaW1hcnlfcHJvdmlkZXJiMHM1CnByZWZzczIyCkhvbWUgVGhlYXRlciBCYWNrZHJvcHNzNApuYW1lMQpzNgpBcnRpc3QxCnMyNQpjb20ucGxleGFwcC5hZ2VudHMubGFzdGZtMTg3CnMyCmFiczIKYWFzMgphZnMyCmFrczIKc3FzMgphbXMyCmFyczIKYW5zMgpoeXMyCmFzczIKYXZzMgphZXMyCmF5czIKYXpzMgpibXMyCmJhczIKZXVzMgpiZXMyCmJuczIKYmhzMgpiaXMyCmJzczIKcGJzMgpicnMyCmJnczIKbXlzMgpjYXMyCmNoczIKY2VzMgpueXMyCnpoczIKY3VzMgpjdnMyCmt3czIKY29zMgpjcnMyCmhyczIKY3NzMgpkYXMyCmR2czIKbmxzMgpkenMyCmVuczIKZW9zMgpldHMyCmVlczIKZm9zMgpmanMyCmZpczIKZnJzMgpmeXMyCmZmczIKZ2RzMgpnbHMyCmxnczIKa2FzMgpkZXMyCmVsczIKZ25zMgpndXMyCmh0czIKaGFzMgpoZXMyCmh6czIKaGlzMgpob3MyCmh1czIKaXNzMgppb3MyCmlnczIKaWRzMgppYXMyCmllczIKaXVzMgppa3MyCmdhczIKaXRzMgpqYXMyCmp2czIKa2xzMgprbnMyCmtyczIKa3NzMgpra3MyCmttczIKa2lzMgpyd3MyCmt5czIKa3ZzMgprZ3MyCmtvczIKa2pzMgprdXMyCmxvczIKbGFzMgpsdnMyCmxpczIKbG5zMgpsdHMyCmx1czIKbGJzMgpta3MyCm1nczIKbXNzMgptbHMyCm10czIKZ3ZzMgptaXMyCm1yczIKbWhzMgptb3MyCm1uczIKbmFzMgpudnMyCm5nczIKbmVzMgp4bnMyCm5kczIKbm9zMgpuYnMyCm5uczIKb2NzMgpvanMyCm9yczIKb21zMgpvc3MyCnBpczIKcGFzMgpmYXMyCnBsczIKcHRzMgpwc3MyCnF1czIKcm1zMgpyb3MyCnJuczIKcnVzMgpzZXMyCnNtczIKc2dzMgpzYXMyCnNjczIKc3JzMgpzbnMyCmlpczIKc2RzMgpzaXMyCnNrczIKc2xzMgpzb3MyCnN0czIKbnJzMgplc3MyCnN1czIKc3dzMgpzc3MyCnN2czIKdGxzMgp0eXMyCnRnczIKdGFzMgp0dHMyCnRlczIKdGhzMgpib3MyCnRpczIKdG9zMgp0c3MyCnRuczIKdHJzMgp0a3MyCnR3czIKdWdzMgp1a3MyCnVyczIKdXpzMgp2ZXMyCnZpczIKdm9zMgp3YXMyCmN5czIKd29zMgp4aHMyCnlpczIKeW9zMgp6YXMyCnp1cjAK
+2025-07-31 01:48:48,961 (7d4180ca5b38) :  INFO (agentservice:175) - Receiving agent info from com.plexapp.agents.htbackdrops: [{'media_types': ['Artist'], 'primary_provider': False, 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.lastfm'], 'languages': ['ab', 'aa', 'af', 'ak', 'sq', 'am', 'ar', 'an', 'hy', 'as', 'av', 'ae', 'ay', 'az', 'bm', 'ba', 'eu', 'be', 'bn', 'bh', 'bi', 'bs', 'pb', 'br', 'bg', 'my', 'ca', 'ch', 'ce', 'ny', 'zh', 'cu', 'cv', 'kw', 'co', 'cr', 'hr', 'cs', 'da', 'dv', 'nl', 'dz', 'en', 'eo', 'et', 'ee', 'fo', 'fj', 'fi', 'fr', 'fy', 'ff', 'gd', 'gl', 'lg', 'ka', 'de', 'el', 'gn', 'gu', 'ht', 'ha', 'he', 'hz', 'hi', 'ho', 'hu', 'is', 'io', 'ig', 'id', 'ia', 'ie', 'iu', 'ik', 'ga', 'it', 'ja', 'jv', 'kl', 'kn', 'kr', 'ks', 'kk', 'km', 'ki', 'rw', 'ky', 'kv', 'kg', 'ko', 'kj', 'ku', 'lo', 'la', 'lv', 'li', 'ln', 'lt', 'lu', 'lb', 'mk', 'mg', 'ms', 'ml', 'mt', 'gv', 'mi', 'mr', 'mh', 'mo', 'mn', 'na', 'nv', 'ng', 'ne', 'xn', 'nd', 'no', 'nb', 'nn', 'oc', 'oj', 'or', 'om', 'os', 'pi', 'pa', 'fa', 'pl', 'pt', 'ps', 'qu', 'rm', 'ro', 'rn', 'ru', 'se', 'sm', 'sg', 'sa', 'sc', 'sr', 'sn', 'ii', 'sd', 'si', 'sk', 'sl', 'so', 'st', 'nr', 'es', 'su', 'sw', 'ss', 'sv', 'tl', 'ty', 'tg', 'ta', 'tt', 'te', 'th', 'bo', 'ti', 'to', 'ts', 'tn', 'tr', 'tk', 'tw', 'ug', 'uk', 'ur', 'uz', 've', 'vi', 'vo', 'wa', 'cy', 'wo', 'xh', 'yi', 'yo', 'za', 'zu'], 'persist_stored_files': True, 'version': 0, 'accepts_from': None, 'prefs': False, 'name': 'Home Theater Backdrops'}]
+2025-07-31 01:48:48,962 (7d4180ca5b38) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
+2025-07-31 01:48:48,962 (7d4180ca5b38) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
+2025-07-31 01:48:48,974 (7d4180ca5b38) :  DEBUG (runtime:717) - Handling request GET /system/agents
+2025-07-31 01:48:48,976 (7d4180ca5b38) :  DEBUG (runtime:814) - Found route matching /system/agents
+2025-07-31 01:48:48,978 (7d4180ca5b38) :  DEBUG (runtime:1117) - Created a thread named 'ensure_agent_info_exists_inner'
+2025-07-31 01:48:48,979 (7d41805a7b38) :  INFO (agentservice:167) - Agents in com.plexapp.agents.thetvdb not in info dictionary - pinging!
+2025-07-31 01:48:48,981 (7d41805a7b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.agents.thetvdb'
+2025-07-31 01:48:49,383 (7d4180534b38) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo1CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdAoyCnMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8xCnIyCjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudG5zMTQKY29udHJpYnV0ZXNfdG9yNApzOQpsYW5ndWFnZXNiMXMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMXMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3M3ClRoZVRWREJzNApuYW1lMQpzNwpUVl9TaG93MjMKczIKZW5zMgpmcnMyCnpoczIKc3ZzMgpub3MyCmRhczIKZmlzMgpubHMyCmRlczIKaXRzMgplc3MyCnBsczIKaHVzMgplbHMyCnRyczIKcnVzMgpoZXMyCmphczIKcHRzMgpjc3MyCmtvczIKc2xzMgpocnIwCg__
+2025-07-31 01:48:49,384 (7d4180534b38) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2025-07-31 01:48:49,385 (7d4180534b38) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo1CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdAoyCnMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8xCnIyCjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudG5zMTQKY29udHJpYnV0ZXNfdG9yNApzOQpsYW5ndWFnZXNiMXMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMXMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3M3ClRoZVRWREJzNApuYW1lMQpzNwpUVl9TaG93MjMKczIKZW5zMgpmcnMyCnpoczIKc3ZzMgpub3MyCmRhczIKZmlzMgpubHMyCmRlczIKaXRzMgplc3MyCnBsczIKaHVzMgplbHMyCnRyczIKcnVzMgpoZXMyCmphczIKcHRzMgpjc3MyCmtvczIKc2xzMgpocnIwCg__
+2025-07-31 01:48:49,645 (7d41802dfb38) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+2025-07-31 01:48:49,646 (7d41802dfb38) :  DEBUG (runtime:49) - Received packed state data (80 bytes)
+2025-07-31 01:48:49,648 (7d41802dfb38) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczE5ClBsZXggTW92aWUgKExlZ2FjeSlzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+2025-07-31 01:48:51,862 (7d41802bcb38) :  DEBUG (runtime:717) - Handling request GET /system/notify/serverUpdated?host=127.0.0.1
+2025-07-31 01:48:51,864 (7d41802bcb38) :  DEBUG (runtime:814) - Found route matching /system/notify/serverUpdated
+2025-07-31 01:48:51,864 (7d41802bcb38) :  DEBUG (peerservice:386) - Handling server update notification (127.0.0.1)
+2025-07-31 01:48:51,864 (7d41802bcb38) :  DEBUG (peerservice:189) - Updating servers (True/False True/True/True)
+2025-07-31 01:48:51,864 (7d41802bcb38) :  DEBUG (peerservice:164) - Fetching the current list of servers
+2025-07-31 01:48:51,865 (7d41802bcb38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/servers'
+2025-07-31 01:48:51,867 (7d41802bcb38) :  DEBUG (peerservice:198) - Found 1 servers
+2025-07-31 01:48:51,868 (7d41802bcb38) :  DEBUG (peerservice:214) - Ignoring abde5715357f1e55b5b05eccdcef7ccc43e3e2af because host != 127.0.0.1 (192.168.65.3)
+2025-07-31 01:48:51,868 (7d41802bcb38) :  DEBUG (runtime:924) - Response: [200] str, 0 bytes
+2025-07-31 01:48:51,953 (7d4180d1ab38) :  INFO (datakit:131) - Saved the dictionary file
