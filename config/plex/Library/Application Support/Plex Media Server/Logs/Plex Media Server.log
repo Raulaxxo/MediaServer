@@ -5730,3 +5730,4 @@ Jul 31, 2025 01:49:21.876 [138418124290872] DEBUG - Stopping file watcher for co
 Jul 31, 2025 01:49:21.884 [138418196659000] DEBUG - [HttpClient/HCl#76] HTTP/1.1 (0.0s) 200 response from GET http://127.0.0.1:43293/:/plugins/com.plexapp.agents.localmedia/prefs
 Jul 31, 2025 01:49:21.884 [138418190027576] DEBUG - [com.plexapp.agents.localmedia] HTTP reply status 200, with 281 bytes of content.
 Jul 31, 2025 01:49:21.885 [138418190027576] DEBUG - PluginRepository::setStartState: 3, complete
+Jul 31, 2025 01:49:29.624 [138418154146616] DEBUG - Stopping file watcher for com.plexapp.agents.none
