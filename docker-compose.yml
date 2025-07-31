@@ -1,4 +1,9 @@
 version: "3.8"
+
+networks:
+  mediabridge:
+    driver: bridge
+
 services:
   plex:
     image: linuxserver/plex
@@ -28,6 +33,8 @@ services:
       - ./config/qbittorrent:/config
       - ./downloads:/downloads
     restart: unless-stopped
+    networks:
+      - mediabridge
 
   radarr:
     image: linuxserver/radarr
@@ -42,6 +49,8 @@ services:
       - ./downloads:/downloads
       - ./movies:/movies
     restart: unless-stopped
+    networks:
+      - mediabridge
 
   jackett:
     image: linuxserver/jackett
@@ -55,3 +64,5 @@ services:
       - ./config/jackett:/config
       - ./downloads:/downloads
     restart: unless-stopped
+    networks:
+      - mediabridge

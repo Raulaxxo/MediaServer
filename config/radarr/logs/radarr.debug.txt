@@ -1061,3 +1061,15 @@
 2025-07-31 01:48:48.7|Info|Microsoft.Hosting.Lifetime|Content root path: /app/radarr/bin
 2025-07-31 01:48:49.0|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
 2025-07-31 01:48:49.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-07-31 01:53:48.8|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-07-31 01:58:48.8|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-07-31 02:03:48.9|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-07-31 02:08:48.9|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-07-31 02:13:48.9|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-07-31 02:18:49.0|Info|RssSyncService|Starting RSS Sync
+2025-07-31 02:18:49.0|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-07-31 02:18:49.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-07-31 02:18:49.0|Info|DownloadDecisionMaker|No results found
+2025-07-31 02:18:49.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-07-31 02:18:49.0|Debug|PendingReleaseService|Removing failed releases from pending
+2025-07-31 02:23:49.0|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning

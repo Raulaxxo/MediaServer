@@ -693,3 +693,21 @@ AttributeError: 'NoneType' object has no attribute 'headers'
 2025-07-31 01:49:21,861 (7d4180d1ab38) :  DEBUG (runtime:88) - Sending packed state data (99 bytes)
 2025-07-31 01:49:21,861 (7d4180d1ab38) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
 2025-07-31 01:49:26,828 (7d4180ca5b38) :  INFO (datakit:131) - Saved the dictionary file
+2025-07-31 01:50:46,767 (7d4180c82b38) :  DEBUG (runtime:1156) - Starting timed thread named 'refresh_servers'
+2025-07-31 01:50:46,767 (7d4180c82b38) :  DEBUG (peerservice:164) - Fetching the current list of servers
+2025-07-31 01:50:46,768 (7d4180c82b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/servers'
+2025-07-31 01:50:46,770 (7d4180c82b38) :  DEBUG (peerservice:171) - Refreshing local server
+2025-07-31 01:50:46,770 (7d4180c82b38) :  DEBUG (peerservice:189) - Updating servers (True/False True/True/True)
+2025-07-31 01:50:46,770 (7d4180c82b38) :  DEBUG (peerservice:198) - Found 1 servers
+2025-07-31 01:50:46,771 (7d4180c82b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400'
+2025-07-31 01:50:46,774 (7d4180c82b38) :  DEBUG (core:521) - Attribute 'machineIdentifier' set to 'abde5715357f1e55b5b05eccdcef7ccc43e3e2af'
+2025-07-31 01:50:46,774 (7d4180c82b38) :  DEBUG (peerservice:230) - Creating new server docker-desktop (abde5715357f1e55b5b05eccdcef7ccc43e3e2af)
+2025-07-31 01:50:46,775 (7d4180c82b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/library/sections'
+2025-07-31 01:50:46,779 (7d4180c82b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/channels/all'
+2025-07-31 01:50:46,782 (7d4180ca5b38) :  DEBUG (peerservice:176) - Background-refreshing remote servers
+2025-07-31 01:50:46,782 (7d4180c82b38) :  DEBUG (runtime:1117) - Created a thread named 'background_refresh'
+2025-07-31 01:50:46,782 (7d4180ca5b38) :  DEBUG (peerservice:189) - Updating servers (True/False True/True/True)
+2025-07-31 01:50:46,783 (7d4180ca5b38) :  DEBUG (peerservice:198) - Found 1 servers
+2025-07-31 01:50:46,783 (7d4180ca5b38) :  DEBUG (peerservice:233) - Updating existing server docker-desktop (abde5715357f1e55b5b05eccdcef7ccc43e3e2af)
+2025-07-31 01:50:46,783 (7d4180ca5b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/library/sections'
+2025-07-31 01:50:46,786 (7d4180ca5b38) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/channels/all'
