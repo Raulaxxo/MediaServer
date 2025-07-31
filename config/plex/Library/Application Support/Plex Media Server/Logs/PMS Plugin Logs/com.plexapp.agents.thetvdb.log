@@ -53,3 +53,20 @@ HTTPError: HTTP Error 404: Not Found
 2025-07-31 01:48:49,377 (756e2ba99808) :  DEBUG (agentkit:1132) - Creating new agent class called TVDBAgent
 2025-07-31 01:48:49,378 (756e2ba99808) :  DEBUG (agentkit:937) - Updating agent information: [{'media_types': ['TV_Show'], 'accepts_from': None, 'fallback_agent': None, 'contributes_to': None, 'languages': ['en', 'fr', 'zh', 'sv', 'no', 'da', 'fi', 'nl', 'de', 'it', 'es', 'pl', 'hu', 'el', 'tr', 'ru', 'he', 'ja', 'pt', 'cs', 'ko', 'sl', 'hr'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'TheTVDB'}]
 2025-07-31 01:48:49,380 (756e2ba99808) :  DEBUG (networking:144) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo1CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdAoyCnMyNgpjb20ucGxleGFwcC5hZ2VudHMudGhldHZkYnMxMAppZGVudGlmaWVycjEKczEwCmFnZW50X2luZm8xCnIyCjEwCnIzCnMxMQptZWRpYV90eXBlc25zMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudG5zMTQKY29udHJpYnV0ZXNfdG9yNApzOQpsYW5ndWFnZXNiMXMyMApwZXJzaXN0X3N0b3JlZF9maWxlc2kwCnM3CnZlcnNpb25iMXMxNgpwcmltYXJ5X3Byb3ZpZGVyYjFzNQpwcmVmc3M3ClRoZVRWREJzNApuYW1lMQpzNwpUVl9TaG93MjMKczIKZW5zMgpmcnMyCnpoczIKc3ZzMgpub3MyCmRhczIKZmlzMgpubHMyCmRlczIKaXRzMgplc3MyCnBsczIKaHVzMgplbHMyCnRyczIKcnVzMgpoZXMyCmphczIKcHRzMgpjc3MyCmtvczIKc2xzMgpocnIwCg__'
+2025-07-31 01:49:09,061 (756e2ba99808) :  INFO (core:611) - Started plug-in
+2025-07-31 01:49:09,061 (756e2ba99808) :  DEBUG (socketinterface:160) - Starting socket server
+2025-07-31 01:49:09,062 (756e2ba99808) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2025-07-31 01:49:09,062 (756e2ba99808) :  INFO (socketinterface:184) - Socket server started on port 42637
+2025-07-31 01:49:09,062 (756e2ba99808) :  INFO (pipeinterface:25) - Entering run loop
+2025-07-31 01:49:09,063 (756e2ba99808) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2025-07-31 01:49:09,064 (756e2ba99808) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2025-07-31 01:49:09,066 (756e2ba99808) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 151 bytes
+2025-07-31 01:49:09,072 (756e2797bb38) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.thetvdb
+2025-07-31 01:49:09,090 (756e2797bb38) :  CRITICAL (runtime:493) - Exception matching route for path "/" (most recent call last):
+  File "/usr/lib/plexmediaserver/Resources/Plug-ins-46083195d/Framework.bundle/Contents/Resources/Versions/2/Python/Framework/components/runtime.py", line 464, in match_route
+    raise Framework.exceptions.FrameworkException("No route found matching '%s'" % path)
+FrameworkException: No route found matching '/'
+
+2025-07-31 01:49:09,090 (756e2797bb38) :  ERROR (runtime:846) - Could not find route matching /:/plugins/com.plexapp.agents.thetvdb
+2025-07-31 01:49:09,091 (756e2797bb38) :  DEBUG (runtime:88) - Sending packed state data (107 bytes)
+2025-07-31 01:49:09,091 (756e2797bb38) :  DEBUG (runtime:924) - Response: [404] NoneType, 0 bytes
