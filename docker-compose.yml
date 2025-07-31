@@ -18,19 +18,18 @@ services:
       - ./movies:/movies
     restart: unless-stopped
 
-  qbittorrent:
-    image: linuxserver/qbittorrent
-    container_name: qbittorrent
+  transmission:
+    image: linuxserver/transmission
+    container_name: transmission
     ports:
-      - "8080:8080"
-      - "6881:6881"
-      - "6881:6881/udp"
+      - "9091:9091"       # WebUI
+      - "51413:51413"     # Torrent
+      - "51413:51413/udp" # UDP
     environment:
       - PUID=1000
       - PGID=1000
-      - WEBUI_PORT=8080
     volumes:
-      - ./config/qbittorrent:/config
+      - ./config/transmission:/config
       - ./downloads:/downloads
     restart: unless-stopped
     networks:
