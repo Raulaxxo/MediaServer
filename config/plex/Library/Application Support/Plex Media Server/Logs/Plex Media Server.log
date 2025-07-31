@@ -6120,3 +6120,29 @@ Jul 31, 2025 02:23:54.706 [138418166709048] DEBUG - [HCl#84] HTTP requesting GET
 Jul 31, 2025 02:23:54.949 [138418196659000] DEBUG - [HttpClient/HCl#84] HTTP/1.1 (0.2s) 401 response from GET https://plex.tv/api/v2/server/users/features (reused)
 Jul 31, 2025 02:23:54.949 [138418162436920] ERROR - MyPlex: Error 401 requesting JSON from: https://plex.tv/api/v2/server/users/features
 Jul 31, 2025 02:23:54.949 [138418166709048] WARN - FeatureManager: Couldn't get features. Trying again soon.
+Jul 31, 2025 02:25:49.966 [138418217012024] DEBUG - Shutting down with signal 15 (Terminated)
+Jul 31, 2025 02:25:49.966 [138418217012024] DEBUG - Ordered to stop server.
+Jul 31, 2025 02:25:49.966 [138418221726352] DEBUG - Stopping server...
+Jul 31, 2025 02:25:49.966 [138418221726352] DEBUG - HttpServer: Stopping server.
+Jul 31, 2025 02:25:49.967 [138418170927928] DEBUG - TranscodeJobManager: [Running] onServerShutdown
+Jul 31, 2025 02:25:49.967 [138418170927928] DEBUG - TranscodeJobManager: [Running] -> [Shutdown]
+Jul 31, 2025 02:25:49.967 [138418199702328] DEBUG - MetadataItemClusterRequestHandler: a shutdown event has been received
+Jul 31, 2025 02:25:49.967 [138418221726352] DEBUG - Server stopped.
+Jul 31, 2025 02:25:49.967 [138418221726352] DEBUG - NetworkService: Stopping advertisement.
+Jul 31, 2025 02:25:49.968 [138418221726352] DEBUG - Killing plug-ins.
+Jul 31, 2025 02:25:49.978 [138418221726352] DEBUG - [com.plexapp.agents.localmedia] Killing.
+Jul 31, 2025 02:25:49.987 [138418221726352] DEBUG - [org.musicbrainz.agents.music] Killing.
+Jul 31, 2025 02:25:49.992 [138418217012024] WARN - JobManager: Could not find job for handle 667
+Jul 31, 2025 02:25:49.992 [138418221726352] DEBUG - [com.plexapp.agents.plexthememusic] Killing.
+Jul 31, 2025 02:25:49.996 [138418217012024] WARN - JobManager: Could not find job for handle 457
+Jul 31, 2025 02:25:49.997 [138418221726352] DEBUG - [com.plexapp.system] Killing.
+Jul 31, 2025 02:25:50.000 [138418221726352] DEBUG - [com.plexapp.agents.themoviedb] Killing.
+Jul 31, 2025 02:25:50.003 [138418217012024] WARN - JobManager: Could not find job for handle 500
+Jul 31, 2025 02:25:50.007 [138418221726352] DEBUG - ChildProcessMonitor: Waiting for Plex Tuner Service to exit.
+Jul 31, 2025 02:25:50.007 [138418221726352] DEBUG - [JobRunner] Signalling job ID 284 with 2
+Jul 31, 2025 02:25:50.010 [138418217012024] WARN - JobManager: Could not find job for handle 239
+Jul 31, 2025 02:25:50.011 [138418217012024] WARN - JobManager: Could not find job for handle 476
+Jul 31, 2025 02:25:50.028 [138418217012024] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Tuner Service' exit code for process 284 is 0 (success)
+Jul 31, 2025 02:25:50.029 [138418173037368] DEBUG - [ChildProcessMonitor] Plex Tuner Service exited.
+Jul 31, 2025 02:25:50.030 [138418221726352] DEBUG - Database: Shutting down.
+Jul 31, 2025 02:25:50.049 [138418221726352] DEBUG - Database: Shutting down.
